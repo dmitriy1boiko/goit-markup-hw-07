@@ -1,0 +1,35 @@
+.peculiarities {
+  padding-bottom: 0;
+}
+.peculiarities-list {
+  display: flex;
+}
+.peculiarities-list__item {
+  width: 270px;
+  .peculiarities-list & + & {
+    margin-left: 30px;
+  }
+}
+.peculiarities-list__container {
+  width: 270px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+.peculiarities-list__icon {
+  width: 70px;
+  height: 70px;
+  background-position: 50% 50%;
+}
+.peculiarities-list__subtitle {
+  @include font(14px, 1.14, 0.03em);
+  text-transform: uppercase;
+}
+.peculiarities-list__text {
+  @include font(14px, 1.71, 0.03em);
+}
