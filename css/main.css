@@ -128,10 +128,11 @@ input {
 
 .section-title {
   margin-bottom: 50px;
+  font-weight: 400;
   font-size: 36px;
   line-height: 1.17;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
   color: var(--secondary-text-color-dark);
 }
 
@@ -243,10 +244,7 @@ input {
 }
 
 .backdrop-label {
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
+  font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
@@ -274,6 +272,7 @@ input {
       -ms-flex-direction: column;
           flex-direction: column;
   margin-bottom: 20px;
+  font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
@@ -307,6 +306,7 @@ input {
       -ms-flex-pack: center;
           justify-content: center;
   margin-bottom: 30px;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -336,6 +336,7 @@ input {
 }
 
 .backdrop-link {
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -544,6 +545,7 @@ input {
 }
 
 .peculiarities-list__subtitle {
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -551,6 +553,7 @@ input {
 }
 
 .peculiarities-list__text {
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -579,8 +582,8 @@ input {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
   text-transform: uppercase;
   background: rgba(47, 48, 58, 0.8);
   color: #ffffff;
@@ -615,15 +618,14 @@ input {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;
   letter-spacing: 0.03em;
   text-align: center;
 }
 
 .team-cards__text {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;
   letter-spacing: 0.03em;
   text-align: center;
   margin-bottom: 16px;
@@ -673,7 +675,7 @@ input {
   margin-left: 10px;
 }
 
-.clients-list {
+.clients__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -685,12 +687,12 @@ input {
           align-items: center;
 }
 
-.clients-item {
+.clients__item {
   width: 170px;
   height: 92px;
 }
 
-.clients-link {
+.clients__link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -708,12 +710,12 @@ input {
   border-radius: 4px;
   fill: #afb1b8;
 }
-.clients-link:hover, .clients-link:focus {
+.clients__link:hover, .clients__link:focus {
   border: 1px solid var(--acent-color);
   fill: var(--acent-color);
 }
 
-.clients-list .clients-item + .clients-item {
+.clients__list .clients__item + .clients__item {
   margin-left: 30px;
 }
 
@@ -751,7 +753,7 @@ input {
 }
 
 .address-link {
-  font-style: normal;
+  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;

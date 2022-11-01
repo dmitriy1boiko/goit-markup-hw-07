@@ -27,9 +27,9 @@
   background-position: 50% 50%;
 }
 .peculiarities-list__subtitle {
-  @include font(14px, 1.14, 0.03em);
+  @include font(400, 14px, 1.14, 0.03em);
   text-transform: uppercase;
 }
 .peculiarities-list__text {
-  @include font(14px, 1.71, 0.03em);
+  @include font(400, 14px, 1.71, 0.03em);
 }
