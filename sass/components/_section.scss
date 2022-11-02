@@ -4,7 +4,7 @@
 }
 .section-title {
   margin-bottom: 50px;
-  @include font(400, 36px, 1.17, 0.03em);
+  @include font(700, 36px, 1.17, 0.03em);
   text-align: center;
   color: var(--secondary-text-color-dark);
 }
