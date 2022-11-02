@@ -570,7 +570,7 @@ input {
   display: flex;
 }
 
-.about-work__list .about-work__item + .about-work-item {
+.about-work__list .about-work__item + .about-work__item {
   margin-left: 30px;
 }
 
